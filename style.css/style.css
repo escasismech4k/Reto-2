@@ -1,0 +1,182 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url(./imagenes/wallpaperbetter.com_1920x1080\ \(1\).jpg);
+}
+
+.carrusel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.imagenes{
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    height: 900px;
+    object-fit: cover;
+}
+
+
+.texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+button {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 100%;
+    justify-content: space-between;
+    background-color: rgb(174, 182, 191);
+}
+
+button:disabled {
+    opacity: 10;
+    cursor: not-allowed;
+}
+
+
+@media screen and (max-width:1280px){
+    body{
+        background-image: url(./imagenes/1270.jpg);
+    }
+
+    button {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 100%;
+        justify-content: space-between;
+        background-color: rgb(174, 182, 191);
+    }
+
+    .imagenes{
+        max-width: 100%;
+        width: 600px;
+        height: 500px;
+        object-fit: contain;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    .texto {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        bottom: 0;
+        margin-left: 21.5%;
+        width: 53.6%;
+        text-align: center;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:1366px){
+    body{
+        background-image: url(./imagenes/wallpaperbetter.com_1366x768\ \(1\).jpg);
+    }
+
+    button {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 100%;
+        justify-content: space-between;
+        background-color: rgb(174, 182, 191);
+    }
+
+    .imagenes{
+        max-width: 100%;
+        width: 600px;
+        height: 500px;
+        object-fit: contain;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    .texto {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        bottom: 0;
+        margin-left: 21.5%;
+        width: 53.6%;
+        text-align: center;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:1024px){
+    body{
+        background-image: url(./imagenes/1024.jpg);
+    }
+
+    button {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 100%;
+        justify-content: space-between;
+        background-color: rgb(174, 182, 191);
+    }
+
+    .imagenes{
+        max-width: 100%;
+        width: 600px;
+        height: 500px;
+        object-fit: contain;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    .texto {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        bottom: 0;
+        margin-left: 21.5%;
+        width: 53.6%;
+        text-align: center;
+        position: absolute;
+    }
+}
